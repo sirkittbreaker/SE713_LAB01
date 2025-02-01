@@ -1,9 +1,16 @@
 const object = {
-  name: "John",
+  firstname: "John",
+  lastname: "Doe",
   age: 30,
-  city: "New York",
+  gpa: 4,
 };
 
-console.log(object.name);
-const jsonStr = JSON.stringify(object);
-console.log(jsonStr);
+const status = (object) => {
+  if (object.gpa > 2) {
+    return JSON.stringify(object);
+  } else {
+    return "คุณ " + object.firstname + " " + object.lastname + " " + "พ้นสภาพ";
+  }
+};
+
+console.log(status(object));
