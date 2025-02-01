@@ -1,8 +1,10 @@
-let x = 11;
-if (x > 10) {
-  console.log("x is more than 10");
-} else if (x < 5) {
-  console.log("x is less than 5");
+let score = 81;
+if (score > 80) {
+  console.log("Grade A");
+} else if (score > 60) {
+  console.log("Grade B");
+} else if (score > 50) {
+  console.log("Grade C");
 } else {
-  console.log("x is between 5 and 10");
+  console.log("Grade F");
 }
