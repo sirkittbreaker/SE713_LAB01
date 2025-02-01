@@ -1,4 +1,4 @@
-let x = 7;
+let x = 4;
 if (x > 10) {
   console.log("x is more than 10");
 } else if (x < 5) {
