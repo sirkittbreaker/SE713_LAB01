@@ -1,11 +1,5 @@
-score = [10, 20, 30, 40, 50];
+const greet = function greet(name) {
+  return "Hello " + name;
+};
 
-function sum() {
-  let total = 0;
-  for (let i = 0; i < score.length; i++) {
-    total += score[i];
-  }
-  return total;
-}
-
-console.log(sum());
+console.log(greet("John"));
