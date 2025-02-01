@@ -2,7 +2,7 @@ const object = {
   firstname: "John",
   lastname: "Doe",
   age: 30,
-  gpa: 4,
+  gpa: 1.5,
 };
 
 const status = (object) => {
