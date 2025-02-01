@@ -1,5 +1,5 @@
-let x = 6;
-let y = 13;
+let x = 5;
+let y = 12;
 if (x > 5 && y > 12) {
   console.log("ค่ามากจัง");
 } else {
