@@ -1,7 +1,9 @@
 waitAndPrint = (message, delay) => {
-  setTimeout(() => {
+  setInterval(() => {
+    world = "world";
     console.log(message);
+    message += world;
   }, delay);
 };
 
-waitAndPrint("Hello, world!", 2000);
+waitAndPrint("hello world", 3000);
