@@ -1,4 +1,4 @@
 const n = [1, 2, 3, 4, 5];
-const squre = n.map((num) => num * num);
+const even = n.filter((num) => num % 2 === 0);
 
-console.log(squre);
+console.log(even);
