@@ -1,3 +1,5 @@
-const greet = (name) => "Hello " + name;
+const multiply = (x, y) => {
+  return x * y;
+};
 
-console.log(greet("John"));
+console.log(multiply(5, 10));
